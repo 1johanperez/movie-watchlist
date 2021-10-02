@@ -1,20 +1,25 @@
 {
   "name": "movie-watchlist",
   "version": "1.0.0",
-  "description": "Self-hosted movie tracking website",
+  "description": "Movie Website (Express/Sequelize Practice)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "seed": "node server/db/seed.js"
+    "start": "nodemon server/index.js"
   },
-  "author": "Joe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1johanperez/movie-watchlist.git"
+  },
+  "author": "Johan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1johanperez/movie-watchlist/issues"
+  },
+  "homepage": "https://github.com/1johanperez/movie-watchlist#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pg": "^8.7.1",
     "sequelize": "^6.6.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.13"
   }
 }
